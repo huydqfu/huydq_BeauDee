@@ -25,7 +25,7 @@ Future<String> signInWithGoogle() async {
 
   final GoogleSignInAccount googleSignInAccount = await googleSignIn.signIn();
   final GoogleSignInAuthentication googleSignInAuthentication =
-  await googleSignInAccount.authentication; // cho nao goi len google gui user với pass á
+  await googleSignInAccount.authentication; // cho nao goi len google gui user với pass
 
   final AuthCredential credential = GoogleAuthProvider.credential(
     accessToken: googleSignInAuthentication.accessToken,

@@ -15,7 +15,7 @@ class GetApiService {
   Future<List<UserForGet>> getArtistByService(String name) async {
     String url = "https://beaudeeproject.azurewebsites.net/Users/GetAll";
 
-    String authToken = await Share().getToken('tokenCuaKhai');
+    String authToken = await Share().getToken('tokenCuaToi');
     final response = await dio.get(url, options: Options(headers: {
       'Content-Type': 'application/json',
       'Accept': 'application/json',
@@ -58,7 +58,7 @@ class GetApiService {
   Future<List<UserForGet>> getSingleArtistByUid(String uid) async {
     String url = "https://beaudeeproject.azurewebsites.net/Users/Get/${uid}";
 
-    String authToken = await Share().getToken('tokenCuaKhai');
+    String authToken = await Share().getToken('tokenCuaToi');
     final response = await dio.get(url, options: Options(headers: {
       'Content-Type': 'application/json',
       'Accept': 'application/json',

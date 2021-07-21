@@ -18,9 +18,9 @@ class PostApiService {
       final result = response.data;
       Iterable list = result['data'];
       var test = list.map((user) => User.fromJson(user)).toList();
-      await Share().setToken('tokenCuaKhai',test[0].token);
+      await Share().setToken('tokenCuaToi',test[0].token);
       await Share().setToken('userID',test[0].id);
-      print( await Share().getToken("tokenCuaKhai"));
+      print( await Share().getToken("tokenCuaToi"));
       return list.map((user) => User.fromJson(user)).toList();
     } else {
       print("abc");

@@ -9,7 +9,7 @@ class UpdateApiService{
 
   Future <List<UserForGet>> updateProfileById(String id,String name, String email, String phone, String address,String minValue,String dayOfBirth, String image) async {
     String url = "https://beaudeeproject.azurewebsites.net/Users/Update?id=${id}";
-    String authToken = await Share().getToken('tokenCuaKhai');
+    String authToken = await Share().getToken('tokenCuaToi');
     // print({
     //   id,
     //   name,

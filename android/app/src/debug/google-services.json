@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "233324240477",
+    "firebase_url": "https://beaudee-84ddb-default-rtdb.firebaseio.com",
+    "project_id": "beaudee-84ddb",
+    "storage_bucket": "beaudee-84ddb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233324240477:android:ca4fba1ae2a011083ef7b4",
+        "android_client_info": {
+          "package_name": "com.example.flutter_beaudee_app_ver1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233324240477-2cc1lju0vv1nksfh4pmfi5o3r15mnqha.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_beaudee_app_ver1",
+            "certificate_hash": "9b7dc8d06ccd2b1efb745edd87a2a3bc2860703a"
+          }
+        },
+        {
+          "client_id": "233324240477-jjnfajj77b7hs9djgu8hm1ifvb8149dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWlGnQvkiS3-iCYSlia_v2VAILriLSnSQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233324240477-jjnfajj77b7hs9djgu8hm1ifvb8149dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
